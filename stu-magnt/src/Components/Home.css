@@ -1,0 +1,259 @@
+body{
+    background-color: rgb(241, 247, 252);
+    margin: 0px;
+    padding: 0px;
+    
+}
+.topbar{
+    margin-top: 0px;
+    padding:0px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #0f172a, #1e3a8a);
+    /* border: 0.5px solid rgb(255, 255, 255); */
+    box-shadow: 1px 2px 10px rgb(134, 133, 133);
+    color: white;
+    position:fixed;
+    top: 0px;
+}
+.logout-btn{
+    height: 30px;
+    /* background: linear-gradient(to right, #0f172a, #1e3a8a);*/
+    margin: 10px; 
+    margin-left: 15px;
+    border: none;
+    border-radius: 10px;
+
+}
+p{
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.faculty-portal{
+    font-size: 20px;
+    /* text-transform: uppercase; */
+    padding :10px;
+}
+.welcome{
+    margin-left:auto;
+    font-size: 12px;
+    margin-right: 0px;
+}
+.section-years{
+    height: 200px;
+    margin-top:20px ;
+    gap: 0px;
+
+
+}
+.top-heading{
+    font-size: 25px;
+    /* text-transform: uppercase; */
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 0px 0px 10px;
+    font-weight: 500;
+    margin-left: 23%;
+    color: #1e3a8a;
+    font-weight: bold;
+    margin-top: 80px;
+
+}
+.sub-heading{
+    font-size: 15px;
+    padding: 0px 0px 0px 10px;
+    margin-top: 5px;
+    font-weight: 300;
+    margin-left: 23%;
+}
+.sections-list{
+    height: 140px;
+    margin: 10px 20px 0px 30px;
+    border: 1px solid aliceblue;
+    width: 680px;
+     margin:2% 0% 0% 23%;
+    background-color: white;
+    box-shadow: 0px 1px 5px rgb(189, 220, 248);
+    border-radius: 20px;
+    
+}
+.select-year{
+    margin: 15px 0px 15px 40px;
+    /* padding: 10px 0px 10px 60px; */
+    text-transform: uppercase;
+    color: linear-gradient(to right, #0f172a, #1e3a8a);
+    font-family: 'Montserrat', sans-serif;
+    
+}
+buttons{
+    display: flex;
+    gap: 25px;
+    margin: 0% 0% 0% 4%;
+}
+.btn-year{
+    height: 50px;
+    width: 100px;
+    border: 1px solid rgb(60, 153, 234);
+    background-color: white;  
+    transition: all 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+    border-radius:5px ;
+}
+.btn-year.active{
+    background-color:rgb(60, 153, 234);
+    color: white;
+    
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.15);
+}
+
+.section-list{
+    margin-top: 30px;
+    border: 1px solid black;
+}
+
+
+/*filters sections*/
+
+
+
+.section-filters{
+    height: 170px;
+    margin:2% 0% 0% 23%;
+    border: 1px solid aliceblue;
+    width: 680px;
+    
+    background-color: white;
+    box-shadow: 0px 1px 5px rgb(189, 220, 248);
+    border-radius: 20px;
+}
+.filters{
+    margin: 0px;
+    padding: 10px 0px 20px 40px;
+    text-transform: uppercase;
+    color: linear-gradient(to right, #0f172a, #1e3a8a);
+    font-family: 'Montserrat', sans-serif;
+
+}
+.year{
+    padding: 30px 0px 0px 10px;
+    margin: 60px 0px 0px 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.input-year{
+    margin: 0px 0px 0px 50px;
+}
+.btn-filter{
+    
+    margin: 2% 0% 0% 40%;
+    height: 30px;
+    width: 100px;
+    font-size: 12px;
+    background-color:rgb(60, 153, 234);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    
+}
+.attendence{
+    margin:20px 0px 0px 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.input-attend{
+    margin:20px 0px 0px 40px;
+}
+/* .cgpa{
+    padding: 60px 0px 0px 10px;
+    margin: 10px 0px 0px 20px;
+} */
+.cgpa{
+    padding: 0px 0px 0px 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.input-cgpa{
+    margin: 0px 0px 0px 10px;
+}
+
+/* for table */
+
+.btn-download{
+    float: right;
+    width: 100px;
+    height: 40px;
+    margin: 10px 60px 5px 0px;
+    border: none;
+    background-color:rgb(60, 153, 234);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.table-section{
+    width: 100%;
+    height: 90%;
+    margin-bottom:30px ;
+}
+.table{
+    width: 90%;
+    margin: 20px 0px 0px 70px;
+     border: 1px solid black;
+
+}
+.table-head{
+    
+    text-align: center;
+    color: #0f172a;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 0px;
+}
+.columns{
+    margin: 0px;
+    padding: 30px 0px 0px 40px;
+    text-transform: uppercase;
+    color: linear-gradient(to right, #0f172a, #1e3a8a);
+    font-family: 'Montserrat', sans-serif;  
+}
+.column-list{
+  margin: 20px 0px 0px 0px;
+}
+
+.column-attend{
+    padding: 10px 10px 0px 50px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.column-input-attend{
+  padding:0px 0px 0px 50px;
+  
+    
+}
+.column-year{
+    margin: 10px 0px 0px 40px;
+}
+.column-input-year{
+    margin:2px 0px 0px 20px;
+    
+}
+.column-cgpa{
+    padding: 0px 0px 0px 20px;
+   
+}
+.column-input-cgpa{
+    margin:0px 0px 0px 30px;
+}
+.column-email{
+    padding: 0px 0px 0px 20px;
+}
+.column-inpu-email{
+    padding: 0px 0px 0px 30px;
+}
+.emptydiv{
+    margin-top: 70px;
+}
